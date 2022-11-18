@@ -2,9 +2,9 @@
 #IDESA Desafío Developer:
 *Diseño de un REST API en PHP, usando Laravel, con base de datos mysql.*
 
-#**Proyecto: Naguarabit API**
+#Proyecto: Naguarabit API
 
-##*Resumen Stack usado:
+##Resumen Stack usado:
 Mysql/MariaDB
 Laravel
 PHP 
