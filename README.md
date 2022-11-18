@@ -27,16 +27,13 @@ Mysql
 *Pasos para montar el aplicativo:
 
 1. clonar repositorio:
-https://github.com/gabdevpy/naguarabit_api
+https://github.com/gabdevpy/idesa-api-demo-naguarabit
 
-2. descargar y restaurar backup de base datos proporcionado via email:
-carpeta bdbackup/production_naguarab_backend__2022-11-18_13-32-50
+2. descargar y restaurar backup de base datos del repositorio, ubicado en database/backup/:
+https://github.com/gabdevpy/idesa-api-demo-naguarabit/blob/master/database/backup/production_naguarab_backend__2022-11-18_13-32-50.sql
 
-Otra opción es usar el respaldo dump del repositorio, ubicado en database/backup/:
-https://github.com/gabdevpy/naguarabit-api-demo/blob/main/database/backup/production_naguarab_backend__2022-11-18_13-32-50.sql
-
-3. modificar el archivo .env si hace falta ajustar parametros conexion bd acorde al servidor/entorno.
-Ejemplo: C:\wamp64\www\naguarabit-backend\env
+3. revisar configuracion en archivo .env.
+Modificar solo si hace falta, por ejemplo, para ajustar parametros conexion bd acorde al servidor/entorno.
 DB_CONNECTION=mysql
 DB_HOST=localhost
 DB_PORT=3306
@@ -44,7 +41,7 @@ DB_DATABASE=new_naguarabit
 DB_USERNAME=root
 DB_PASSWORD=
 
-4. ejecutar comandos:
+4. Ejecutar siguientes comandos:
 composer install
 php artisan optimize:clear
 composer dump-autoload
