@@ -62,9 +62,9 @@ country
 banks
 
 Ejemplos operaciones GET:
-http://localhost:8000/api/countries/
-http://localhost:8000/api/banks
-http://localhost:8000/api/banks/PAR/byCountry
-http://localhost:8000/api/banks/VEN/byCountry
-http://localhost:8000/api/banks/show/1
-http://localhost:8000/api/banks/VEN/byActive
+http://localhost:8000/api/countries/ (lista todos los paises)
+http://localhost:8000/api/banks/show/1 (consulta un bancos por id 1)
+http://localhost:8000/api/banks (lista todos los bancos sin importar su estatus activo o inactivo)
+http://localhost:8000/api/banks/PAR/byCountry (lista todos los bancos de un pais especifico: PARAGUAY)
+http://localhost:8000/api/banks/VEN/byCountry (lista todos los bancos de un pais especifico: Venezuela)
+http://localhost:8000/api/banks/VEN/byActive (lista todos los bancos con estatus activo)
