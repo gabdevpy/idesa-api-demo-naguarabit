@@ -1,30 +1,33 @@
-Proyecto: Naguarabit API
+![IDESA LOGO]([https://myoctocat.com/assets/images/base-octocat.sv](https://www.idesa.com.py/img/iconos/logo_idesa.png)g)
+#IDESA Desafío Developer:
+*Diseño de un REST API en PHP, usando Laravel, con base de datos mysql.*
 
-*Resumen Stack usado:
+#**Proyecto: Naguarabit API**
+
+##*Resumen Stack usado:
 Mysql/MariaDB
 Laravel
 PHP 
 
-Detalles del entorno desarrollo:
-WAMPP Server:
-Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.0
-Versión del cliente de base de datos: libmysql - mysqlnd 7.4.0
-extensión PHP: mysqliDocumentación curlDocumentación mbstringDocumentación
-
+###Detalles del entorno desarrollo:
 PHP version: 7.4
 Laravel version: 8.83.26
 Database: 10.3.20-MariaDB - mariadb.org binary distribution
 User: root@localhost
 
+###WAMPP Server:
+Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.0
+Versión del cliente de base de datos: libmysql - mysqlnd 7.4.0
+extensión PHP: mysqliDocumentación curlDocumentación mbstringDocumentación
 
-*Requerimientos:
+###Requerimientos:
 PHP version: 7.4 o superior
 Composer
 Mysql
 
 
 
-*Pasos para montar el aplicativo:
+##Pasos para montar el aplicativo:
 
 1. clonar repositorio:
 https://github.com/gabdevpy/idesa-api-demo-naguarabit
@@ -52,13 +55,13 @@ $ php artisan serve
 
 
 
-*API TESTING:
+##API TESTING:
 -El archivo route_list_api.txt contiene el listado de todos los endpoints, algunos no están implementados al 100%.
 Las rutas que expongo para este demo son:
 country
 banks
 
-Ejemplos operaciones GET:
+##**Ejemplos operaciones GET**
 *http://localhost:8000/api/countries/ (lista todos los paises)
 *http://localhost:8000/api/banks/show/1 (consulta un bancos por id 1)
 *http://localhost:8000/api/banks (lista todos los bancos sin importar su estatus activo o inactivo)
