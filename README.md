@@ -42,26 +42,26 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 4. Ejecutar siguientes comandos:
-composer install
-php artisan optimize:clear
-composer dump-autoload
-php artisan migrate
-php artisan db:seed
-php artisan jwt:secret
-php artisan serve
+$ composer install
+$ php artisan optimize:clear
+$ composer dump-autoload
+$ php artisan migrate
+$ php artisan db:seed
+$ php artisan jwt:secret
+$ php artisan serve
 
 
 
 *API TESTING:
-El archivo route_list_api.txt contiene el listado de todos los endpoints, algunos no están implementados al 100%.
+-El archivo route_list_api.txt contiene el listado de todos los endpoints, algunos no están implementados al 100%.
 Las rutas que expongo para este demo son:
 country
 banks
 
 Ejemplos operaciones GET:
-http://localhost:8000/api/countries/ (lista todos los paises)
-http://localhost:8000/api/banks/show/1 (consulta un bancos por id 1)
-http://localhost:8000/api/banks (lista todos los bancos sin importar su estatus activo o inactivo)
-http://localhost:8000/api/banks/PAR/byCountry (lista todos los bancos de un pais especifico: PARAGUAY)
-http://localhost:8000/api/banks/VEN/byCountry (lista todos los bancos de un pais especifico: Venezuela)
-http://localhost:8000/api/banks/VEN/byActive (lista todos los bancos con estatus activo)
+*http://localhost:8000/api/countries/ (lista todos los paises)
+*http://localhost:8000/api/banks/show/1 (consulta un bancos por id 1)
+*http://localhost:8000/api/banks (lista todos los bancos sin importar su estatus activo o inactivo)
+*http://localhost:8000/api/banks/PAR/byCountry (lista todos los bancos de un pais especifico: PARAGUAY)
+*http://localhost:8000/api/banks/VEN/byCountry (lista todos los bancos de un pais especifico: Venezuela)
+*http://localhost:8000/api/banks/VEN/byActive (lista todos los bancos con estatus activo)
