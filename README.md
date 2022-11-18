@@ -1,4 +1,4 @@
-![IDESA LOGO]([https://myoctocat.com/assets/images/base-octocat.sv](https://www.idesa.com.py/img/iconos/logo_idesa.png)g)
+![IDESA LOGO](https://www.idesa.com.py/img/iconos/logo_idesa.png)
 #IDESA Desafío Developer:
 *Diseño de un REST API en PHP, usando Laravel, con base de datos mysql.*
 
